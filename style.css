@@ -1,0 +1,80 @@
+body {
+    background-image: linear-gradient(to bottom right, darkred, darkblue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.heading {
+    font-size: 32px;
+    width: 100%;
+    margin-top: 0;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.musicIcon {
+    color: black;
+    font-size: larger;
+    margin: 0;
+    padding: 0;
+}
+
+.songName {
+    font-weight: 800;
+}
+
+.note {
+    font-size: 24px;
+}
+
+#songLabel {
+    font-size: 18px;
+    font-family: cursive;
+    text-align: center;
+    transition: all 1s ease-in-out;
+    border: none;
+}
+
+#songLabel:hover {
+    transform: rotate(360deg) scale(2);
+    box-shadow: 0 0 5px 6px hsl(197, 90%, 50%);
+    background-color: hsl(197, 90%, 50%);
+    border: none;
+}
+
+canvas {
+    border: 20px solid rgba(255, 255, 255, 0.75);
+    box-shadow: 
+    0 0 7.5px 7.5px rgba(255, 255, 255, 0.60),
+    0 0 12px 12px rgba(255, 255, 255, 0.20);
+    border-radius: 20px;
+    margin-top: 150px;
+}
+
+.songsSection {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 
+    -5px 0 5px 5px rgba(255, 255, 255, 0.25),
+    -10px 0 10px 1px rgba(255, 255, 255, 0.15);
+    font-family: monospace;
+}
+
+.songsSectionInfo {
+    font-size: 20px;
+}
+
+a {
+    font-size: 22px;
+    color: mediumblue;
+    transition: all 1s ease;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: hsl(240, 100%, 20%);
+}
